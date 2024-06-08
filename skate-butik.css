@@ -9,6 +9,8 @@
     justify-content: center;
     font-size: 30px;
     color:rgb(50, 250, 50);
+    position: fixed;
+    width: 100%;
 
     
     
@@ -25,11 +27,6 @@ body{
     background-color: rgb(255, 255, 255); 
 }
 
-.nav{
-    display: flex;
-    justify-content: center;
-}
-
 nav a {
     color: white; 
     text-decoration:underline;
@@ -39,4 +36,29 @@ nav a {
 }
 nav a:hover {
     background-color: purple;
+}
+
+.bottom-layer{
+    background: rgb(130, 40, 165);
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color:rgb(50, 250, 50);
+    padding: 20px;
+    height: 100px;
+    margin-top: -5px;
+    align-items: center;
+    bottom: 0;
+    
+    
+   
+}
+
+p{
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+h1{
+font-size: 20px;
 }
